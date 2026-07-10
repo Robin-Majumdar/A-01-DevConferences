@@ -107,6 +107,7 @@ header {
 }
 
 .section-title {
+    color: #0D1B2A;
     text-align: center;
     font-size: 42px;
     margin-bottom: 50px;
@@ -142,13 +143,149 @@ header {
 }
 
 .speaker-card h3 {
+    color: #0D1B2A;
     margin: 0 24px 8px;
     font-size: 20px;
 }
 
-.speaker-card p{
+.speaker-card p {
     color: #575757;
     font-size: 14px;
     font-weight: 400;
     margin: 0 24px;
+}
+
+/* Secure Your Spot Start/ Pricing Card section */
+
+.pricing-section {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.pricing-section h2 {
+    color: #0D1B2A;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.pricing-section p {
+    text-align: center;
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.pricing-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro {
+    background-color: #0D1B2A;
+}
+
+.plan {
+    font-size: 12px;
+    font-weight: 500;
+    color: #888888;
+}
+
+.pro .plan {
+    color: #93C5FD;
+}
+
+.pricing-card h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #0D1B2A;
+}
+
+.pro h3 {
+    color: #FFFFFF;
+}
+
+.pricing-card small {
+    font-size: 12px;
+    font-weight: 500;
+    color: #888888;
+}
+
+.pro small {
+    color: #B9C3D0;
+}
+
+.pricing-card hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 20px 0;
+}
+
+.pro hr {
+    border-color: #2D3D4F;
+}
+
+.pricing-card ul {
+    list-style: none;
+    flex: 1;
+}
+
+.pricing-card ul li {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.pro ul li {
+    color: #D9D9D9;
+}
+
+.pricing-card ul li::before {
+    content: "•";
+    top: -2px;
+    left: 0;
+    font-size: 18px;
+    position: absolute;
+    color: #2563EB;
+}
+
+.pricing-card button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-outline {
+    background: #fff;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+
+.btn-primary {
+    background: #2563EB;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-dark-outline {
+    background: #FFFFFF;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
 }
