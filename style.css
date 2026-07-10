@@ -52,7 +52,6 @@ header {
 /* Banner (Hero) Section Start */
 
 .hero-section {
-    background-color: yellowgreen;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)), url("./assets/images/banner.jpg");
     min-height: 800px;
@@ -98,4 +97,58 @@ header {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+
+/* Meet the Speakers Start */
+.speaker-section {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .08);
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.speaker-category {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+    margin: 20px 24px 8px;
+}
+
+.speaker-card h3 {
+    margin: 0 24px 8px;
+    font-size: 20px;
+}
+
+.speaker-card p{
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 24px;
 }
