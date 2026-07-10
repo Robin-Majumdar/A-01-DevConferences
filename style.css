@@ -48,3 +48,54 @@ header {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* Banner (Hero) Section Start */
+
+.hero-section {
+    background-color: yellowgreen;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("./assets/images/banner.jpg");
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    font-style: italic;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.banner-button {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 300px;
+    padding: 18px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
