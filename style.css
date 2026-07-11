@@ -290,8 +290,73 @@ header {
     border: 1px solid #0D1B2A;
 }
 
+/* Conference Schedule section Start */
 
+.schedule-section {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
 
+.schedule-section h2 {
+    color: #0D1B2A;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.schedule-section>p {
+    text-align: center;
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.schedule-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.schedule-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-time {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #DBEAFE;
+    color: #2563EB;
+    padding: 8px 14px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.schedule-time i {
+    font-size: 14px;
+}
+
+.schedule-card h3 {
+    font-size: 18px;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+
+.schedule-card p {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+}
 
 /* Footer section */
 
